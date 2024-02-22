@@ -23,11 +23,11 @@ public class BukuMain26 {
 
     public static void main(String[] args) {
     
-        BukuMain26 bk1 = new BukuMain26();
+        Buku26 bk1 = new Buku26();
         bk1.judul = "Today Ends Tomorrow Comes";
         bk1.pengarang = "Denanda Pratiwi";
         bk1.halaman = 198;
-        bk1.stok = 13;
+        bk1.stok = 13;  
         bk1.harga = 71000;
 
         bk1.tampilInformasi();
@@ -38,5 +38,9 @@ public class BukuMain26 {
         Buku26 bk2 = new Buku26("Self Reward", "Maheera Ayesha", 160, 29, 590000);
         bk2.terjual(11);
         bk2.tampilInformasi();
+
+        Buku26 bukuSeptian = new Buku26("Nice Try", "Septian Tito", 200, 1, 100000000);
+        bukuSeptian.terjual(1);
+        bukuSeptian.tampilInformasi();
     }
 }
